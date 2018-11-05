@@ -1,0 +1,80 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AFX_FONT_UNICODE_H__6E6D67A4_78AE_410B_B728_2464EF2E40C7__INCLUDED_	include/unicode.h	5;"	d
+BOOL	include/typedef.h	/^typedef int                 BOOL;$/;"	t
+BYTE	include/typedef.h	/^typedef unsigned char       BYTE;$/;"	t
+CP1250	src/mbcs.c	/^	CP1250 = SET_BIT(5),$/;"	e	enum:__anon1	file:
+CP1251	src/mbcs.c	/^	CP1251 = SET_BIT(6),$/;"	e	enum:__anon1	file:
+CP1252	src/mbcs.c	/^	CP1252 = SET_BIT(7),$/;"	e	enum:__anon1	file:
+CP1253	src/mbcs.c	/^	CP1253 = SET_BIT(8),$/;"	e	enum:__anon1	file:
+CP1254	src/mbcs.c	/^	CP1254 = SET_BIT(9),$/;"	e	enum:__anon1	file:
+CP1255	src/mbcs.c	/^	CP1255 = SET_BIT(10),$/;"	e	enum:__anon1	file:
+CP1256	src/mbcs.c	/^	CP1256 = SET_BIT(11),$/;"	e	enum:__anon1	file:
+CP1257	src/mbcs.c	/^	CP1257 = SET_BIT(12),$/;"	e	enum:__anon1	file:
+CP1258	src/mbcs.c	/^	CP1258 = SET_BIT(13),$/;"	e	enum:__anon1	file:
+CP874	src/mbcs.c	/^	CP874 = SET_BIT(4),$/;"	e	enum:__anon1	file:
+CP932	src/mbcs.c	/^	CP932 = SET_BIT(0),$/;"	e	enum:__anon1	file:
+CP936	src/mbcs.c	/^	CP936 = SET_BIT(1),$/;"	e	enum:__anon1	file:
+CP949	src/mbcs.c	/^	CP949 = SET_BIT(2),$/;"	e	enum:__anon1	file:
+CP950	src/mbcs.c	/^	CP950 = SET_BIT(3),$/;"	e	enum:__anon1	file:
+DB2UC	include/font.h	13;"	d
+DISPLAY_FONT_MODE	src/display_char.c	3;"	d	file:
+DWORD	include/typedef.h	/^typedef unsigned long       DWORD;$/;"	t
+FL_HEADER	include/font.h	/^        } FL_HEADER, *PFL_HEADER;$/;"	t	typeref:struct:tagFontLibHeader
+FL_SECTION_INF	include/font.h	/^       } FL_SECTION_INF, *PFL_SECTION_INF;$/;"	t	typeref:struct:tagFlSectionInfo
+FONT_INDEX_TAB_SIZE	include/font.h	10;"	d
+First	include/font.h	/^            WORD  First;        $/;"	m	struct:tagFlSectionInfo
+GET_FONT_OFFADDR	include/font.h	12;"	d
+GET_FONT_WIDTH	include/font.h	11;"	d
+HowToUser	readfont_demo.c	/^void HowToUser()$/;"	f
+IS_CJK	src/mbcs.c	16;"	d	file:
+Last	include/font.h	/^            WORD  Last;         $/;"	m	struct:tagFlSectionInfo
+MAX_FONT_SIZE	readfont_demo.c	9;"	d	file:
+MAX_GLYPH_CNT	src/display_char.c	5;"	d	file:
+MAX_GLYPH_LEN	src/display_char.c	6;"	d	file:
+MODE_DEBUG	readfont_demo.c	10;"	d	file:
+OffAddr	include/font.h	/^            DWORD OffAddr;     $/;"	m	struct:tagFlSectionInfo
+OpenFontFile	src/font.c	/^static int OpenFontFile(char *pFontFile)$/;"	f	file:
+PFL_HEADER	include/font.h	/^        } FL_HEADER, *PFL_HEADER;$/;"	t	typeref:struct:tagFontLibHeader
+PFL_SECTION_INF	include/font.h	/^       } FL_SECTION_INF, *PFL_SECTION_INF;$/;"	t	typeref:struct:tagFlSectionInfo
+PIXELS_PER_BYTE	include/font.h	9;"	d
+ReadFontHeader	src/font.c	/^static int ReadFontHeader(PFL_HEADER pfl_header)$/;"	f	file:
+SET_BIT	src/mbcs.c	17;"	d	file:
+Size	include/font.h	/^            DWORD 	Size;            $/;"	m	struct:tagFontLibHeader
+WORD	include/typedef.h	/^typedef unsigned short      WORD;$/;"	t
+YSize	include/font.h	/^            BYTE    YSize;                 $/;"	m	struct:tagFontLibHeader
+_TYPEDEF_H	include/typedef.h	2;"	d
+__FONT_FILE_H__	include/font_file.h	2;"	d
+__FONT_H__	include/font.h	5;"	d
+__FONT_MBCS_H__	include/mbcs.h	5;"	d
+_fl_header	src/font.c	/^FL_HEADER _fl_header;$/;"	v
+display_char	src/display_char.c	/^void display_char(int nYSize, int nBytesPerLine, unsigned char *pFontData)$/;"	f
+find_code_with_mbcs	src/mbcs.c	/^static long find_code_with_mbcs(WORD wCode, int nCodepage)$/;"	f	file:
+font_exit	src/font.c	/^void font_exit()$/;"	f
+font_file_close	src/font_file.c	/^void font_file_close()$/;"	f
+font_file_open	src/font_file.c	/^int font_file_open(const char* file)$/;"	f
+font_file_read	src/font_file.c	/^int font_file_read(void *pdata, long size)$/;"	f
+font_file_seek	src/font_file.c	/^int font_file_seek(long offset)$/;"	f
+font_get_ysize	src/font.c	/^BYTE font_get_ysize()$/;"	f
+font_init	src/font.c	/^int font_init(char *pFontFile)$/;"	f
+font_read_char_distX	src/font.c	/^int font_read_char_distX(WORD wCode)$/;"	f
+font_read_char_dot_array	src/font.c	/^int font_read_char_dot_array(WORD wCode, BYTE *fontArray, WORD *bytesPerLine)$/;"	f
+font_read_sections	src/unicode.c	/^int font_read_sections()$/;"	f
+font_release_sections	src/unicode.c	/^void font_release_sections()$/;"	f
+g_dwCharInfo	src/font.c	/^static DWORD g_dwCharInfo = 0;    \/\/ 存储当前字符的检索信息。  bit0～bit25：存放点阵信息的起始地址。 bit26～bit31：存放像素宽度。$/;"	v	file:
+g_prf	src/font_file.c	/^static FILE *g_prf = NULL;$/;"	v	file:
+magic	include/font.h	/^            BYTE    magic[4];    \/\/'U'(or ’M’), 'F', 'L', X---Unicode(or MBCS) Font Library, X: 表示版本号. 分高低4位。如 0x12表示 Ver 1.2$/;"	m	struct:tagFontLibHeader
+main	readfont_demo.c	/^void main(int argc, char *argv[])$/;"	f
+nSection	include/font.h	/^            BYTE    nSection; \/\/ 共分几段数据，主要针对 UNICODE 编码有效。$/;"	m	struct:tagFontLibHeader
+pSection	include/font.h	/^            FL_SECTION_INF  *pSection;$/;"	m	struct:tagFontLibHeader
+read_char_info_mbcs	src/mbcs.c	/^DWORD read_char_info_mbcs(WORD wCode)$/;"	f
+read_char_info_unicode	src/unicode.c	/^DWORD read_char_info_unicode(WORD wCode)$/;"	f
+reserved	include/font.h	/^            char    reserved[4];      \/\/ 预留字节    $/;"	m	struct:tagFontLibHeader
+strGlyphTab	src/display_char.c	/^static char strGlyphTab[MAX_GLYPH_CNT][9] = {$/;"	v	file:
+tagFlSectionInfo	include/font.h	/^typedef struct tagFlSectionInfo{$/;"	s
+tagFontLibHeader	include/font.h	/^typedef struct tagFontLibHeader{$/;"	s
+wCpFlag	include/font.h	/^            WORD    wCpFlag;    \/\/ codepageflag:  bit0~bit13 每个bit分别代表一个CodePage 标志，如果是1，则表示当前CodePage 被选定，否则为非选定。$/;"	m	struct:tagFontLibHeader
